@@ -3,7 +3,6 @@
 import { AuthProvider } from "@/context/AuthContext";
 import ApolloWrapper from "@/lib/apolloWrapper";
 import { createTheme, ThemeProvider } from "@mui/material";
-import type { Metadata } from "next";
 
 const theme = createTheme({
   palette: {
